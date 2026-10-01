@@ -10,6 +10,7 @@
 | 2. Policy gradients: REINFORCE | `notebooks/policy_gradient/` | `utils/toy_mdp.py` | `docs/policy_gradient.md` |
 | 3. PPO: the clipped surrogate | `notebooks/ppo/` | `utils/ppo.py` | `docs/ppo.md` |
 | 4. Reward modelling: Bradley–Terry | `notebooks/reward_modeling/` | `utils/reward_model.py` | |
+| 5. RLHF: the KL-regularised objective | `notebooks/rlhf_pipeline/` | `utils/reward_model.py` | |
 
 ## Running
 

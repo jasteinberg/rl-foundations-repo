@@ -1,0 +1,15 @@
+[project]
+name = "rl-foundations"
+version = "0.1.0"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Julia Steinberg" }]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["notebooks", "scripts/local"]
+
+[tool.ruff.lint]
+select = ["F", "E", "I", "B", "NPY"]
+ignore = ["E501", "E741"]
